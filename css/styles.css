@@ -1,0 +1,212 @@
+:root{
+    --primary:#ff4c68;
+    --grey:#8f8f8f;
+    --secondary:#ef8172;
+}
+
+body{
+    text-align: center !important;
+}
+
+
+
+p{
+    font-size: large;
+    color: #8f8f8f;
+}
+h1{
+    font-size: 3rem;
+}
+
+/* website logo and navbar */
+
+.navbar{
+    padding-top: 0 !important;
+}
+
+.navbar-nav{
+    margin-right: 15% !important;
+    
+}
+
+.navbar-brand{
+    font-size: 3rem !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-items{
+    font-size: x-large !important;
+    font-weight: 300;
+    padding: 0 0 0 15% ; 
+}
+
+#title a{
+    color:#fff;
+}
+
+
+/*All Sections */
+
+.section-color{
+    background-color: var(--primary);
+    color: #fff;
+    
+    
+}
+
+.section-white{
+    background-color:#fff ;
+}
+
+/* All h1 and h2 */
+
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;  
+}
+
+/* All sections Expect Title */
+
+.container{
+    padding: 7% 15%;
+}
+
+
+/*Title section */
+
+#title{
+    position: relative;
+    height: 40rem !important;
+}
+
+#title .row{
+    text-align: left !important;
+    padding: 5% 0 0 0;
+}
+
+.container-fluid{
+    padding: 3% 15% !important ;    
+}
+
+.phone-img{
+    width: 20rem !important;
+    transform: rotate(25deg)
+}
+
+.download-btn {
+    margin-top: 7% ;
+}
+
+
+/* features section */
+
+#features{
+    
+    position: relative;
+    z-index: 10;
+    /* text-align: center; */
+    /* padding: 7% 15%; */
+    
+}
+ 
+
+
+.features-box{
+    padding: 5% !important;
+   
+}
+
+.icon{
+    color: var(--secondary);
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: var(--primary);
+}
+
+/* <!-- Testimonials --> */
+
+#testimonials{
+    /* padding:7% 15% ;    */
+}
+
+#testimonials img{
+    border-radius: 100%;
+    width: 5rem;
+    margin: 1rem;
+}
+
+.prev-btn{
+    margin-left: -150px ;
+}
+
+.next-btn{
+    margin-right: -150px ;   
+}
+
+/* Press */
+
+#press img{
+    width: 15%;
+    margin: 2rem;
+
+}
+
+/* pricing */
+
+#pricing .col-lg-4{
+    padding: 3% 3% 0 3%; 
+}
+
+.blank{
+    visibility: hidden;
+}
+
+/* call to action */
+
+#cta h3{
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width:1000px) {
+    .heading{
+        font-size: 2rem;
+    }
+
+    .phone-img{
+        width: 20rem !important;
+        transform: rotate(0deg);
+        margin-top: 2rem ;    }
+
+    #title .row{
+        text-align: center !important;
+        padding: 5% 0 0 0;
+    }
+
+    #title{
+        position: relative;
+        height: 50rem !important;
+    }
+
+    .navbar-brand{
+        font-size: 2.5rem !important;
+    }
+
+   
+}
+
+@media (max-width:767px){
+    .card{
+        margin: 0 5rem;
+    }
+}
